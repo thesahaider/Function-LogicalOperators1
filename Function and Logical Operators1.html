@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <hr><center><h1>Logical Operators</h1></center><hr>
+
+<script>
+    // AND OPERATOR
+let age=20
+let hasLicense = false
+if (age>=18 && hasLicense) {
+    console.log("You can drive a car!")
+} else {
+    console.log("You cannot drive a car!")
+}
+
+let isBirthday = true
+let goodGrades = false
+
+// OR OPERATOR
+if (isBirthday || goodGrades) {
+    console.log("You can have a Party!")
+} else {
+    console.log("You cannot have a Party at all!!!")
+}
+
+
+// NOT OPERATOR
+
+let isWeekend = false
+if (!isWeekend) {
+    console.log("Its a hectic school day!!")
+} else {
+    console.log("You can have a funtime!!")
+}
+
+// FUNCTION
+
+function sayHello() {
+    console.log("Hi Reader")
+}
+
+sayHello()
+
+function calculateBMI() {
+    let weight = prompt("weight in Kg")
+    let height = prompt ("height in m")
+    weight=Number(weight)
+    height=Number(height)
+    
+    let BMI = weight / (height)**2
+    console.log(BMI)
+}
+
+calculateBMI()
+calculateBMI()
+calculateBMI()
+
+
+
+</script>
+</body>
+</html>
